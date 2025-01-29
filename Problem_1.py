@@ -15,7 +15,7 @@ Your code should not contain a 'input' statement! Further, your code should not 
 #initialize vowel count
 vowel_count = 0
 
-#iterate through each character in the string s
+#iterate through each char in the string s
 for char in s:
     #if the character is a vowel, increment the vowel count
     if char in 'aeiou':
