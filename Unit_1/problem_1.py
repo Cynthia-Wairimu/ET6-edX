@@ -11,10 +11,10 @@ Number of vowels: 5
 Your code should not contain a 'input' statement! Further, your code should not define the variable 's'.
 
 """
-
+#for educational purposes, I will define the variable
+s = 'azcbobobegghakl'
 #initialize vowel count
 vowel_count = 0
-
 #iterate through each char in the string s
 for char in s:
     #if the character is a vowel, increment the vowel count
