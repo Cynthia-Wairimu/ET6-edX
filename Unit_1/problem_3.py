@@ -9,9 +9,11 @@ then your program should print
 Longest substring in alphabetical order is: abc
 
 """
+#for educational purposes, I will define the variable
+s = 'azcbobobegghakl'
 #initialize the variables
 longest = '' #Stores the longest substring in alphabetical order
-current = s[0] #tarts with the first character of the string s
+current = s[0] #starts with the first character of the string s
 
 #iterate through each character in the string s
 for i in range(1, len(s)):
