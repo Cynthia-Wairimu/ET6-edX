@@ -18,7 +18,7 @@ for i in range(len(s) - 2):  #stop 2 characters before the end of the string to 
     #for example, when searching for a substring of length 3, N=3, so the loop should stop at 3-1=2
     
     #if the substring of the next 3 characters is 'bob', increment the bob count
-    #When searching for a substring of length, use index-based loops instead of character-based loops.add
+    #When searching for a substring of length, use index-based loops instead of character-based loops.
     if s[i:i+3] == 'bob': # Extracts 3 characters (perfect for "bob") starting from index i excluding the character at index i+3
         bob_count += 1
         
