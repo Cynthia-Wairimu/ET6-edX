@@ -47,7 +47,7 @@ while upperBound - lowerBound > epsilon:
 
 print("Lowest Payment:", round(fixedMonthlyPayment, 2))"""
 
-balance = 320000  # Example balance (replace with actual)
+balance = 999999 # Example balance (replace with actual)
 annualInterestRate = 0.18  # Example interest rate (replace with actual)
 
 monthlyInterestRate = annualInterestRate / 12.0
